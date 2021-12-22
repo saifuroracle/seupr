@@ -1,0 +1,14 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TriggerOraclev10g class="oracle.dbtools.crest.model.design.storage.oracle.v10g.TriggerOraclev10g" name="PERSON_TBL_LOADING_TR" directorySegmentName="seg_0" id="B94BC1BF-4BAC-4D51-F229-95BD53D9E24A">
+<sourceConnName>seu_po_req</sourceConnName>
+<sourceObjSchema>SEU_PO_REQ</sourceObjSchema>
+<sourceObjName>PERSON_TBL_LOADING_TR</sourceObjName>
+<createdBy>saifur</createdBy>
+<createdTime>2017-12-16 07:07:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<actions>INSERT</actions>
+<body>DECLARE&lt;br/&gt;    PERSONID PERSON.PERSON_ID%TYPE := PERSON_SEQ.NEXTVAL;&lt;br/&gt;BEGIN&lt;br/&gt;    IF INSERTING THEN&lt;br/&gt;        :NEW.PERSON_PERSON_ID:=PERSONID;&lt;br/&gt;          INSERT INTO PERSON(PERSON_ID, FIRST_NAME) VALUES(PERSONID,:NEW.USER_NAME);&lt;br/&gt;    END IF;&lt;br/&gt;&lt;br/&gt;END;</body>
+<triggerTime>BEFORE</triggerTime>
+<owner>0301F5DD-4AE9-90E7-86B8-CD32E1141275</owner>
+<table>1A237022-DE38-BDEE-0E4B-CFF935AE39F9</table>
+</TriggerOraclev10g>

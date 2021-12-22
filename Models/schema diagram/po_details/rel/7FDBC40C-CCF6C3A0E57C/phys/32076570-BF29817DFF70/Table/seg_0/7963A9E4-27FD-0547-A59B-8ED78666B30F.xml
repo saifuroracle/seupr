@@ -1,0 +1,134 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="ORDER_LIST" directorySegmentName="seg_0" id="7963A9E4-27FD-0547-A59B-8ED78666B30F">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:45 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>ECB2DEFA-6D44-79E8-286B-89BC93F96678</segment>
+<tableSpace>C44CA002-3752-BCF4-3B92-06FDCB91FA28</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ORDER_LIST_ORDER_LIST_ID_IDX" id="44A34F88-F03F-9E09-F1E8-06BB83BD690B">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<schemaObject>4A05F343-3CC6-1097-1210-BEAE7CAA445A</schemaObject>
+<segment>3896976F-EFD3-7B9E-402B-799F2E2BAE56</segment>
+<tableSpace>C44CA002-3752-BCF4-3B92-06FDCB91FA28</tableSpace>
+</IndexProxy>
+</indexProxies>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ORDER_LIST_ID" id="0E40811A-EF89-F59F-AB96-CADD12EC6280">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CREATED_TIME" id="1FDDC164-7639-F808-B4F6-BB5CA1C38819">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_SITES_SUPP_SITE_ID" id="2693E655-3764-87FD-CA55-C3B2064404B7">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="AMNT_AGREED" id="3EB7F8E1-449A-1216-4FF8-B33CF6AA2580">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USER_INFO_USER_ID" id="47D2D8DA-CDA8-9B36-D489-059E32BF97A6">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BUDGET_LIST_BUDGET_LIST_ID" id="4AC5B6F1-42D9-A446-BDA7-0177DAB13577">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="SUPPLIER_LIST_SUPP_ID" id="57221198-0EE0-7AE0-B3CC-004BBABD0855">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CURRENCY_CURRENCY_ID" id="74144A26-957F-0130-903F-D42AEDC0655C">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BILL_TO_LOCATION" id="74DFCCBF-9C36-C750-682C-4BA185321827">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_TYPE_ID" id="925025AC-87A8-A2EC-8FB2-48DD841B67CA">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="DESCRIPTIONS" id="ADB076CA-19EF-8B88-0B24-A15F85946C0A">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ORDER_STATUS_ID" id="B6BF58C7-F392-2325-F823-BCADB78DA062">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="BANK_ACCOUNT_BANK_ACCT_ID" id="E5486E27-120E-35F6-0E47-861AF1003124">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:46 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_LIST_SUPPLIER_SITES_FK" id="0DC3C5D1-CB91-B111-E689-E1FBCC7ADBCC">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_LIST_BANK_ACCOUNT_FK" id="1DCC4035-2109-A794-7C95-A9923D3E771D">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_LIST_BUDGET_LIST_FK" id="671D88BD-2F1F-F8E5-476B-FC90B2DD6C5B">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_LIST_CURRENCY_FK" id="97655994-EAC8-1B2E-482B-2EC99A348C20">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_LIST_SUPPLIER_LIST_FK" id="E0B95E0A-38D7-1975-E5DD-C20A6AB32685">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="ORDER_LIST_USER_INFO_FK" id="F40AB0BE-B534-C70F-700B-A25DCB940DEB">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:48 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ORDER_LIST_PK" id="36071426-1ECB-D42F-6573-9AA91AB1644C">
+<createdBy>saifur</createdBy>
+<createdTime>2017-11-26 11:24:47 UTC</createdTime>
+<ownerDesignName>po_details</ownerDesignName>
+<segment>3896976F-EFD3-7B9E-402B-799F2E2BAE56</segment>
+<tableSpace>C44CA002-3752-BCF4-3B92-06FDCB91FA28</tableSpace>
+<existingIndex>44A34F88-F03F-9E09-F1E8-06BB83BD690B</existingIndex>
+<indexSegment>3896976F-EFD3-7B9E-402B-799F2E2BAE56</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
